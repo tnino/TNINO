@@ -39,7 +39,7 @@
 
 		<p>{{i.price}}</p>
 
-		<a href='{{url_for('editstudioitem', category_id = category.id, studio_id=i.id ) }}' >Edit</a>
+		<a href='{{url_for('editStudioItem', category_id = category.id, studio_id=i.id ) }}' >Edit</a>
 	</br>
 	<a href='{{url_for('deleteStudioItem', category_id = category.id, studio_id=i.id ) }}' >Delete</a>
 </br>
